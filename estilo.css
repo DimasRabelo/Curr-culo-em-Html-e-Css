@@ -10,7 +10,7 @@ body {
   max-width: 1200px;
   width: 80%;
   margin: 0 auto;
-  background-color: #000000; /* Fundo preto para o body */
+  
   
 }
 
@@ -57,6 +57,7 @@ h1 {
   margin-bottom: 20px; /* Espaçamento inferior */
   box-shadow: none !important;
   border: none !important;
+  
 }
 .divPerfil img {
   width: 70%;
