@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+
+
+    .icone {
+        width: 5%;
+      }
+
+      .container {
+        flex-direction: column; /* Muda para coluna em telas menores */
+        gap: 5px; /* Aumenta o espaçamento entre as divs */
+      }
+
+
+
+}

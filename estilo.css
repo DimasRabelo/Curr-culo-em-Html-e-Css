@@ -18,13 +18,15 @@ h1 {
   font-size: 30px;
   text-align: center;
   margin: 40px 0;
+  
 }
 
 .container {
   display: flex;
   gap: 2px; /* Adiciona um espaçamento entre as divs */
   align-items: stretch; /* Faz as divs terem a mesma altura */
-  background-color: #ffffff;
+  background-color: #a8dbf3;
+  color: #212529;
 }
 
 .container div {
@@ -44,7 +46,12 @@ h1 {
 
 .icone {
   width: 3%;
+  transition: transform 0.3s ease; /* Adiciona uma animação suave ao passar o mouse */
 }
+.icone:hover {
+  transform: scale(1.2); /* Aumenta o ícone levemente ao passar o mouse */
+}
+
 .icone2 {
   width: 30%;
 }
