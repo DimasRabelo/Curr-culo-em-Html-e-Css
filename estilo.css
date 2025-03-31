@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+*,
+a {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #000000; /* Fundo preto para o body */
+  
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.container {
+  display: flex;
+  gap: 2px; /* Adiciona um espaçamento entre as divs */
+  align-items: stretch; /* Faz as divs terem a mesma altura */
+  background-color: #ffffff;
+}
+
+.container div {
+  flex: 1; /* Faz as divs ocuparem espaço proporcionalmente */
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container div:first-child {
+  flex: 2; /* A primeira div ocupa mais espaço */
+}
+
+.container div:last-child {
+  flex: 1; /* A segunda div ocupa menos espaço */
+}
+
+.icone {
+  width: 3%;
+}
+.icone2 {
+  width: 30%;
+}
+
+.divPerfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Espaçamento entre os itens */
+  margin-bottom: 20px; /* Espaçamento inferior */
+  box-shadow: none !important;
+  border: none !important;
+}
+.divPerfil img {
+  width: 70%;
+  border-radius: 50%;
+  margin-top: 60px;
+  transition: transform 0.5s ease-in-out; /* Efeito suave */
+}
+
+.divPerfil img:hover {
+  transform: scale(1.2); /* Aumenta 20% do tamanho original */
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column; /* Organiza os elementos verticalmente */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  gap: 10px; /* Espaçamento entre os itens */
+  margin-bottom: 20px;
+}
+
+.social-links img {
+  width: 50px; /* Ajuste o tamanho das imagens */
+  height: auto; /* Mantém a proporção */
+  transition: transform 0.5s ease-in-out; /* Efeito suave */  
+}
+
+.social-links img:hover {
+  transform: scale(1.2); /* Aumenta 20% do tamanho original */
+}
+.redeSocial {
+  margin: 50px;
+}
+li {
+    margin-bottom: 10px; /* Espaço de 10px entre os itens da lista */
+  }
